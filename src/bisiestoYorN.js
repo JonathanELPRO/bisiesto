@@ -7,7 +7,8 @@ function determinarBisiesto(anio) {
   {
     return "No es bisiesto"
   }
-  if (anio%4===0 && anio%100!==0){
+  if (anio%4===0 && anio%100!==0)
+  {
     return "Es bisiesto"
   }
 
