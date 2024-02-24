@@ -9,6 +9,8 @@ describe("BisiestoYorN", () => {
   });
   it("Deberia retornar que el año ingresado es bisiesto solamente sabiendo que es divisible por 4 pero no por 100", () => {
     expect(determinarBisiesto(2016)).toEqual("Es bisiesto");
-    
+  });
+  it("Deberia retornar que el año ingresado no es bisiesto solamente sabiendo que no es divisible por 4", () => {
+    expect(determinarBisiesto(2019)).toEqual("No es bisiesto");
   });
 });
