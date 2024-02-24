@@ -11,11 +11,10 @@ function determinarBisiesto(anio) {
   {
     return "Es bisiesto"
   }
-  if (anio%4!==0){
+  if (anio%4!==0)
+  {
     return "No es bisiesto"
   }
-
-
 }
 
 export default determinarBisiesto;
